@@ -1,4 +1,4 @@
-const getDate = (date) => {
+const getDate = () => {
   const d = new Date();
   const month = d.getMonth() + 1;
   const day = d.getDate();
@@ -6,4 +6,4 @@ const getDate = (date) => {
   return `${month}/${day}/${year}`;
 };
 
-export getDate
+export { getDate };
